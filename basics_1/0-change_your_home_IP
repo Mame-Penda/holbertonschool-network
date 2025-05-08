@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # This script changes the home IP address of a user in the database.
+
+
 echo "Updating the /etc/hosts file to change the home IP address of the user."
 {
     echo "127.0.0.2 localhost"
