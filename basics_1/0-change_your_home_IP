@@ -4,4 +4,4 @@
 echo "Updating the /etc/hosts file to change the home IP address of the user."
 
 echo "127.0.0.2 localhost" | sudo tee /etc/hosts > /dev/null
-echo "8.8.8.8 facebook .com" | sudo tee -a /etc/hosts > /dev/null
+echo "8.8.8.8 facebook.com" | sudo tee -a /etc/hosts > /dev/null
