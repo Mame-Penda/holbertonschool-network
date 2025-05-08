@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script changes the home IP address of a user in the database.
+nc -l localhost 98
