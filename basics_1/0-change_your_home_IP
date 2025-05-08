@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
-# This script changes the home IP address of a user in the database.
+# localhost is 127.0.0.2 and facebook.com is 8.8.8.8
 
 echo "Updating the /etc/hosts file to change the home IP address of the user."
 
-# Check if the user is root
 echo "127.0.0.2 localhost" | sudo tee /etc/hosts > /dev/null
 echo "8.8.8.8 facebook .com" | sudo tee -a /etc/hosts > /dev/null
