@@ -60,7 +60,7 @@ Sends the HTML, CSS, JS, and image files.
 The browser then renders the page for you to see.
 
 Summary Diagram
-![Diagram for the block](Images/image.png)
+![What_happen_when_diagram](Images/infrastructure.png)
 
 Conclusion
 Typing a URL into a browser triggers a series of impressive technologies working together in milliseconds — from DNS lookups, firewalls, encryption, load balancing, and server responses. Understanding this journey deepens your appreciation of how the web functions and makes you a better engineer, capable of working across the stack.
